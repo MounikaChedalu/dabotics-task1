@@ -1,4 +1,3 @@
-/* General styles */
 *,
 ::before,
 ::after {
@@ -23,7 +22,6 @@ img {
   display: block;
 }
 
-/* Container */
 .container {
   width: 100%;
   max-width: 1200px;
@@ -31,7 +29,6 @@ img {
   padding: 0 1rem;
 }
 
-/* Header */
 .header {
   background: #fff;
   padding: 1rem 0;
@@ -48,7 +45,7 @@ img {
 }
 
 .nav__logo img {
-  width: 40px; /* Decreased size */
+  width: 40px; 
 }
 
 .nav__menu {
@@ -113,8 +110,6 @@ img {
     right: 0;
   }
 }
-
-/* Home section */
 .home {
   display: flex;
   align-items: center;
@@ -147,7 +142,7 @@ img {
 }
 
 .home__description {
-  font-size: 1.2rem; /* Increased size */
+  font-size: 1.2rem; 
   color: #666;
   margin-top: 0.5rem;
 }
@@ -185,7 +180,6 @@ img {
   font-weight: bold;
 }
 
-/* Sponsor section */
 .sponsor {
   background: #fff;
   padding: 2rem 0;
@@ -199,12 +193,10 @@ img {
 }
 
 .sponsor__img {
-  width: 80%; /* Decreased size */
+  width: 80%; 
   height: auto;
-  margin: 0 auto; /* Centering image */
+  margin: 0 auto; 
 }
-
-/* Specs section */
 .specs {
   background: #f5f5f5;
   padding: 4rem 0;
@@ -256,9 +248,9 @@ img {
 }
 
 .specs__img {
-  width: 80%; /* Decreased size */
+  width: 80%; 
   height: auto;
-  margin: 0 auto; /* Centering image */
+  margin: 0 auto; 
 }
 
 @media screen and (max-width: 768px) {
@@ -267,7 +259,6 @@ img {
   }
 }
 
-/* Case section */
 .case {
   background: #fff;
   padding: 4rem 0;
@@ -281,9 +272,9 @@ img {
 }
 
 .case__img {
-  width: 80%; /* Decreased size */
+  width: 80%; 
   height: auto;
-  margin: 0 auto; /* Centering image */
+  margin: 0 auto; 
 }
 
 .case__data {
@@ -300,8 +291,6 @@ img {
     grid-template-columns: 1fr;
   }
 }
-
-/* Discount section */
 .discount {
   background: #f5f5f5;
   padding: 4rem 0;
@@ -326,9 +315,9 @@ img {
 }
 
 .discount__img {
-  width: 80%; /* Decreased size */
+  width: 80%; 
   height: auto;
-  margin: 0 auto; /* Centering image */
+  margin: 0 auto; 
 }
 
 @media screen and (max-width: 768px) {
@@ -337,7 +326,6 @@ img {
   }
 }
 
-/* Products section */
 .products {
   background: #fff;
   padding: 4rem 0;
@@ -379,9 +367,9 @@ img {
 }
 
 .products__img {
-  width: 80%; /* Decreased size */
+  width: 80%; 
   height: auto;
-  margin: 0 auto; /* Centering image */
+  margin: 0 auto; 
   margin-bottom: 1rem;
 }
 
@@ -407,7 +395,6 @@ img {
   }
 }
 
-/* Footer */
 .footer {
   background: #333;
   color: #fff;
@@ -422,7 +409,7 @@ img {
 }
 
 .footer__logo img {
-  width: 40px; /* Decreased size */
+  width: 40px; 
 }
 
 .footer__content {
